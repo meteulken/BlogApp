@@ -6,10 +6,16 @@ __pycache__/
 # C extensions
 *.so
 
-#Database
+# Database
 db.sqlite3
-/migrations/
+
+# Ignore .pyc files
 *.pyc
+__pycache__/
+
+# Ignore all migrations folders
+*/migrations/
+
 
 # Distribution / packaging
 .Python
